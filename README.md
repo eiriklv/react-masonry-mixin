@@ -13,7 +13,7 @@ A mixin for React.js to create masonry
 `<script src='//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js' />`
 
 * To use the mixin
- * require the mixin and inject React 
+ * require the mixin
  * use the mixin in your component
  * add `ref="masonryContainer"` to the container you want to apply the effect on
 
@@ -26,7 +26,7 @@ A mixin for React.js to create masonry
  
 var React = require('react');
  
-var MasonryMixin = require('react-masonry-mixin')(React);
+var MasonryMixin = require('react-masonry-mixin');
  
 var masonryOptions = {
     transitionDuration: 0
