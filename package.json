@@ -1,0 +1,25 @@
+{
+  "name": "react-masonry-mixin",
+  "version": "0.1.0",
+  "main": "./lib/index",
+  "description": "A masonry mixin for React.js",
+  "dependencies": {
+    "imagesloaded": "3.1.8",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/react-masonry-mixin.git"
+  },
+  "keywords": [
+    "react",
+    "mixin",
+    "masonry",
+    "packery",
+    "isotope"
+  ],
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)"
+}
