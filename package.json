@@ -19,7 +19,8 @@
     "mixin",
     "masonry",
     "packery",
-    "isotope"
+    "isotope",
+    "react-component"
   ],
   "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
   "bugs": {
