@@ -1,10 +1,11 @@
 {
   "name": "react-masonry-mixin",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "main": "./lib/index",
   "description": "A masonry mixin for React.js",
   "dependencies": {
-    "imagesloaded": "git+https://878c3337f2ae0290ec65e461c1b6f7cc8e26c0c6:x-oauth-basic@github.com/eiriklv/imagesloaded.git"
+    "masonry": "eiriklv/masonry",
+    "imagesloaded": "eiriklv/imagesloaded"
   },
   "devDependencies": {},
   "scripts": {
