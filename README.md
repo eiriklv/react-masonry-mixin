@@ -7,6 +7,10 @@ React Masonry Mixin
 #### Introduction:
 A mixin for React.js to create masonry
 
+#### Live demo:
+[hearsay.me (web)](http://www.hearsay.me)
+[hearsay.me (github)](https://github.com/eiriklv/hearsay-frontend)
+
 #### Usage:
 
 * The mixin is now bundled with masonry, so no additional dependencies needed!
