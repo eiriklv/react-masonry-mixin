@@ -20,8 +20,8 @@ A mixin for React.js to create masonry
 
 * To use the mixin
  * require the mixin
- * use the mixin in your component
- * add `ref="masonryContainer"` to the container you want to apply the effect on
+ * pass a reference and a masonry options object
+ * make sure you use the same reference as `ref` in your component
  * if you need to - access the masonry object through `this.masonry` in your component
 
 * example use in code
@@ -42,7 +42,7 @@ var masonryOptions = {
 module.exports = React.createClass({
     displayName: 'SomeComponent',
  
-    mixins: [MasonryMixin(masonryOptions)],
+    mixins: [MasonryMixin('masonryContainer', masonryOptions)],
  
     render: function () {
         var childElements = this.props.elements.map(function(element){
