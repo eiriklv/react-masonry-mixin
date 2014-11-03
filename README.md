@@ -9,7 +9,9 @@ A mixin for React.js to create masonry
 
 #### Usage:
 
-* You will have to use Masonry as a script dependency, as there is no complete npm module available at the moment.
+* The mixin is now bundled with masonry, so no additional dependencies needed!
+* ~You will have to use Masonry as a script dependency, as there is no complete npm module available at the moment.~~
+* You can optionally include Masonry as a script tag
 `<script src='//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js' />`
 
 * To use the mixin
