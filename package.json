@@ -1,6 +1,6 @@
 {
   "name": "react-masonry-mixin",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "main": "./lib/index",
   "description": "A masonry mixin for React.js",
   "dependencies": {
