@@ -1,11 +1,10 @@
 React Masonry Mixin
 ===================
 
-#### TODO
-* Test suite
+[![npm version](https://badge.fury.io/js/react-masonry-mixin.svg)](http://badge.fury.io/js/react-masonry-mixin)
 
 #### Introduction:
-A mixin for React.js to create masonry
+A mixin for React.js to create masonry layout
 
 #### Live demo:
 [hearsay.me (web)](http://www.hearsay.me)
@@ -13,7 +12,7 @@ A mixin for React.js to create masonry
 
 #### Usage:
 
-* The mixin is now bundled with masonry, so no additional dependencies needed!
+* The mixin is now bundled with Masonry, so no additional dependencies needed!
 * ~~You will have to use Masonry as a script dependency, as there is no complete npm module available at the moment.~~
 * You can optionally include Masonry as a script tag
 `<script src='//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js' />`
@@ -24,24 +23,18 @@ A mixin for React.js to create masonry
  * make sure you use the same reference as `ref` in your component
  * if you need to - access the masonry object through `this.masonry` in your component
 
-* example use in code
+* example code
 
-```js
-/** @jsx React.DOM */
- 
-'use strict';
- 
+```js 
 var React = require('react');
- 
 var MasonryMixin = require('react-masonry-mixin');
  
 var masonryOptions = {
     transitionDuration: 0
 };
  
-module.exports = React.createClass({
-    displayName: 'SomeComponent',
- 
+var SomeComponent = React.createClass({
+
     mixins: [MasonryMixin('masonryContainer', masonryOptions)],
  
     render: function () {
@@ -60,4 +53,6 @@ module.exports = React.createClass({
         );
     }
 });
+
+module.exports = SomeComponent;
 ```
