@@ -4,7 +4,7 @@ React Masonry Mixin
 [![npm version](https://badge.fury.io/js/react-masonry-mixin.svg)](http://badge.fury.io/js/react-masonry-mixin)
 
 #### Introduction:
-A mixin for React.js to create masonry layout
+A React.js Masonry mixin. (Also available as a [component](https://github.com/eiriklv/react-masonry-component))
 
 #### Live demo:
 [hearsay.me (web)](http://www.hearsay.me)
