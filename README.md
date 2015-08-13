@@ -4,7 +4,7 @@ React Masonry Mixin
 [![npm version](https://badge.fury.io/js/react-masonry-mixin.svg)](http://badge.fury.io/js/react-masonry-mixin)
 
 #### Introduction:
-A React.js Masonry mixin. (Also available as a [component](https://github.com/eiriklv/react-masonry-component))
+A React.js Masonry mixin. (Also available as a [component](https://github.com/eiriklv/react-masonry-component) - you should use that instead!)
 
 #### Live demo:
 [hearsay.me (web)](http://www.hearsay.me)
@@ -18,7 +18,7 @@ A React.js Masonry mixin. (Also available as a [component](https://github.com/ei
 `<script src='//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js' />`
 
 * To use the mixin
- * require the mixin
+ * require the mixin and inject `React`
  * pass a reference and a masonry options object
  * make sure you use the same reference as `ref` in your component
  * if you need to - access the masonry object through `this.masonry` in your component
@@ -27,7 +27,7 @@ A React.js Masonry mixin. (Also available as a [component](https://github.com/ei
 
 ```js 
 var React = require('react');
-var MasonryMixin = require('react-masonry-mixin');
+var MasonryMixin = require('react-masonry-mixin')(React);
  
 var masonryOptions = {
     transitionDuration: 0
