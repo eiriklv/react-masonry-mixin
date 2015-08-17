@@ -35,7 +35,7 @@ var masonryOptions = {
  
 var SomeComponent = React.createClass({
 
-    mixins: [MasonryMixin('masonryContainer', masonryOptions)],
+    mixins: [MasonryMixin(React)('masonryContainer', masonryOptions)],
  
     render: function () {
         var childElements = this.props.elements.map(function(element){
